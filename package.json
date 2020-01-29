@@ -1,0 +1,13 @@
+{
+  "name": "chrome-github-approval",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "author": "Marcelo Alves",
+  "license": "MIT",
+  "private": true,
+  "prettier": {
+    "semi": false,
+    "printWidth": 120,
+    "singleQuote": true
+  }
+}

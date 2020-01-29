@@ -1,0 +1,29 @@
+{
+  "name": "GitHub Approval Count",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Show the number of Pull Request approvals",
+  "homepage_url": "https://github.com/marceloalves",
+  "author": "Marcelo Alves",
+  "icons": {},
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "scripts": ["src/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["src/inject.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/gha16.png",
+      "48": "icons/gha48.png",
+      "64": "icons/gha64.png",
+      "128": "icons/gha128.png"
+    },
+    "default_title": "GitHub GitHub Approval Count: Click to set/remove access token"
+  }
+}
