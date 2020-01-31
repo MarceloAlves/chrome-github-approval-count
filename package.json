@@ -1,10 +1,18 @@
 {
   "name": "chrome-github-approval",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Marcelo Alves",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloAlves/chrome-github-approval-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarceloAlves/chrome-github-approval-count/issues"
+  },
+  "homepage": "https://github.com/MarceloAlves/chrome-github-approval-count",
   "prettier": {
     "semi": false,
     "printWidth": 120,

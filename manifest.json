@@ -1,11 +1,15 @@
 {
   "name": "GitHub Approval Count",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "manifest_version": 2,
   "description": "Show the number of Pull Request approvals",
   "homepage_url": "https://github.com/marceloalves",
   "author": "Marcelo Alves",
-  "icons": {},
+  "icons": {
+    "16": "icons/gha16.png",
+    "48": "icons/gha48.png",
+    "128": "icons/gha128.png"
+  },
   "permissions": ["storage", "activeTab"],
   "background": {
     "scripts": ["src/background.js"]
