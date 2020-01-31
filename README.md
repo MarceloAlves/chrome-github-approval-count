@@ -1,5 +1,7 @@
 ## Chrome Extension - GitHub Pull Request Approval Count
 
+![chrome store](https://img.shields.io/chrome-web-store/v/mioahlnpgdafifikokdnibkagbmedngo?color=green&style=flat-square)
+
 Adds the number of PR approvals when browsing the list
 
 ## Screenshot
